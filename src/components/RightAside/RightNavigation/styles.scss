@@ -1,0 +1,47 @@
+@import 'src/assets/styles/helpers';
+
+.right-navigate {
+    @include flex($justify: start, $align: center);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 35px
+}
+
+.navigate__title {
+    color: $light;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    align-items: flex-start;
+}
+
+.navigate-button {
+    margin-left: 20px;
+    margin-right: 45px;
+
+    &__previous {
+        opacity: .67;
+    }
+
+    &__next {
+        margin-left: 22px;
+        margin-right: 0;
+    }
+}
+
+.navigate__title {
+    @include flex($justify: center, $align: center)
+}
+
+.navigate-more {
+    @include flex($justify: center, $align: center);
+
+    &__title {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 100%;
+        opacity: .67;
+        color: $light;
+        margin-right: 10px;
+    }
+}

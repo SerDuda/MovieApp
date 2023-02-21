@@ -1,0 +1,98 @@
+@import 'src/assets/styles/helpers';
+
+.aside-menu-continue {
+    margin-bottom: 60px;
+}
+.menu-continue-slider{
+    display: flex;  
+}
+.second__suggest {
+    left: 30px;
+}
+
+.continue-slider-suggest {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 130px;
+    background: $main;
+    border: 1px, solid, $light, 0.1;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.suggest-main {
+    display: flex;
+    flex-direction: row;
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    &__img-img {
+        width: 55px;
+        height: 60px;
+        border-radius: 8px;
+        bottom: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        color: $light;
+        position: absolute;
+        height: 16px;
+        width: 96px;
+        left: 75px;
+        top: 10px;
+    }
+
+    &__discription {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        color: $light;
+        opacity: .7;
+        position: absolute;
+        height: 14px;
+        width: 85px;
+        left: 75px;
+        top: 36px;
+
+    }
+
+    &__border {
+        border: 2px solid rgba(0, 185, 174, 1);
+        border-radius: 5px;
+        position: absolute;
+        width: 108px;
+        height: 0px;
+        left: 75px;
+        top: 65px;
+    }
+}
+
+.suggest-button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    &__drop {
+        position: absolute;
+        left: 10px;
+        top: 79px;
+
+    }
+
+    &__watch {
+        top: 79px;
+        left: 75px;  
+    }
+}

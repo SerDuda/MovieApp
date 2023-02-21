@@ -1,0 +1,48 @@
+@import 'src/assets/styles/helpers';
+
+.right-aside-header {
+    @include flex($justify: row, $align: center);
+    margin-bottom: 62px;
+}
+
+.header-notification {
+    width: 56px;
+    height: 56px;
+    padding: 13px 16px;
+    border-radius: 15px;
+    background: rgba(249, 249, 249, 0.4);
+    margin-right: 60px;
+    opacity: .2;
+    cursor: pointer;
+
+    &__component {
+        width: 24px;
+        height: 30px;
+        top: 13px;
+        left: 16px; 
+    }
+}
+
+.header-user {
+    @include flex($justify: center, $align: center);
+
+    &__title {
+        color: $light;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 100%;
+        margin-right: 10px;
+    }
+
+    &__more {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    &__profile {
+        width: 56px;
+        height: 56px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,69 @@
+@import 'src/assets/styles/helpers';
+
+.menu-genres-slider {
+    display: flex;
+    flex-direction: column;
+}
+
+.seggest-genres {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.seggest-genres-window {
+    width: 210px;
+    height: 99px;
+    border: 1px, solid, $light, 0.1;
+
+    &__right {
+        width: 80px;
+        height: 99px;
+        background: grey;
+        margin-left: 30px;
+        border-radius: 12px;
+        right: -10px
+    }
+}
+
+.genres-triller {
+    background-image: url("../../../assets/images/thriller.jpg");
+    background-position: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.genres-superhero {
+    background-image: url("../../../assets/images/superhero.jpg");
+    background-position: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.genres-sitcom {
+    background-image: url("../../../assets/images/sitcom.jpg");
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.genres-drama {
+    background-image: url("../../../assets/images/drama.jpg");
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+}
+
+.drama__title, .sitcom__title {
+    position: absolute;
+    height: 18px;
+    width: 55px;
+    top: 41px;
+    left: 78px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    color: $light;
+}
